@@ -46,7 +46,7 @@ export default class TimerForm extends Component {
             return (
                 <View style={formContainer}>
                     <View style={attributeContainer}>
-                        <Text style={textInputTitle}> Title </Text>
+                        <Text style={textInputTitle}> {title} </Text>
                         <View style={textInputContainer}>
                             <TextInput
                                 style={textInput}
@@ -57,7 +57,7 @@ export default class TimerForm extends Component {
                         </View>
                     </View>
                     <View style={attributeContainer}>
-                        <Text style={textInputTitle}>Project</Text>
+                        <Text style={textInputTitle}>{project}</Text>
                         <View style={textInputContainer}>
                             <TextInput
                             style={textInput}
